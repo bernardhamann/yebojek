@@ -491,6 +491,10 @@ ul.nav-sub li a {
    clear: both;  /*Not sure what this does - can delete it - think it does something with the coloms */
 }
 
+#license {
+   margin: 0 auto;
+}
+
 .footer-container p,
 .footer-container a,
 .footer-container a:hover{
