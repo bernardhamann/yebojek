@@ -1,13 +1,8 @@
 <div class='sidebar-right'>
    {% include sidebars/sidebar-right.html %}
 </div><!-- End sidebar-left div -->
-   <div class='content-with-sidebar-right'>
-   {% if page.title %}
-      <h1 class='page-title'> {{ page.title }} </h1>
-   {% endif %}
-   {% if post.categories == blog %}
-      <p>{{ page.date | date_to_long_string }}</p>
-   {% endif %}
+<div class='content-with-sidebar-right'>
+   {% include code/content-headers/post-header-1.html %}
   {{ content }}
    <br>
    <hr/>
@@ -15,4 +10,4 @@
    <div class="content-footer">
     {% include code/content-footers/content-footer-1.html %}
    </div> <! -- end of content-footer div -->
-</div><!-- End content div -->
+</div><!-- End content-with-sidebar-right div -->
