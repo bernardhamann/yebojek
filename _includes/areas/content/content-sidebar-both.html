@@ -5,13 +5,11 @@
    {% include sidebars/sidebar-right.html %}
 </div> <!-- End sidebar-right div -->
 <div class='content-with-sidebar-both'>
-   {% if page.title %}
-      <h1 class='page-title'> {{ page.title }} </h1>
-   {% endif %}
+   {% include code/content-headers/page-header-1.html %}
    {{ content }}
-<br>
-<hr/>
-<br>
+   <br>
+   <hr/>
+   <br>
    <div class="content-footer">
     {% include code/content-footers/content-footer-1.html %}
    </div> <! -- end of content-footer div -->
