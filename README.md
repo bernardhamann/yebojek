@@ -10,4 +10,4 @@ This project is still in the early stages of development.
 
 * * * * * * * * * * * * * * * * * * * * * *
 
-Jebojek Version 0.12 - Copyright (c) 2013 Bernard Hamann
+Jebojek Version 0.13 - Copyright (c) 2013 Bernard Hamann
