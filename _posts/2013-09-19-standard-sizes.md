@@ -1,7 +1,7 @@
 ---
 title: Yebojek Standard Sizes
 layout: default
-category: test
+category: posts
 ---
 
 <p> Use this page to help remember the standard sizes of the areas in your project. </p>
