@@ -284,13 +284,29 @@ ul.nav-sub li a {
 
 /* !Start Pagination */
 
+.pagination {
+   background: orange;
+}
+
 .pagination ul {
    display: block;
+   color: black;
 }
 
 .pagination li {
    display: inline;
+    color: black;
 }
+
+.pagination a {
+    color: black;
+}
+
+.pagination span  {
+   color: orange !important;
+}
+
+
 
 /* End pagination -------------------------------------------------------- */
 

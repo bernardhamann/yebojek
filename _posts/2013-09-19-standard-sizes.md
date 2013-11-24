@@ -1,7 +1,7 @@
 ---
 title: Yebojek Standard Sizes
 layout: default
-tag: yebojek
+category: test
 ---
 
 <p> Use this page to help remember the standard sizes of the areas in your project. </p>

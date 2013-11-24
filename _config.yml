@@ -3,18 +3,22 @@ description: "This is the Description"
 main_keywords: "Keyword"
 author: "Me"
 copyright: "2013"
-paginate: 2
+
+
+# Pagination
+paginate: 100
+paginate_path: "posts/page:num"
 
 
 # Dependencies
-markdown:         rdiscount
+markdown:        rdiscount
 pygments:         true
 
 # Permalinks
-permalink:        :title
+permalink:        /:categories/:title/index.html
+
 
 # Server
 base_url: /
 
 # Custom vars
-
