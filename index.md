@@ -35,3 +35,7 @@ Fix the navigation bar, get example from bootstrap website or just use the yeboj
 - Facebook share post
 - Twitter follow
 - Twitter share post
+
+### Add pagination
+
+- Get a good plugin to do the pagination or just create a separate site at blog.yoursite.com that does the pagination on the home page.
