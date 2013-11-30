@@ -95,7 +95,7 @@ a:focus {
 }
 
 .site-container {
-   width: 960px;              /*   This is where you set the width of you websites active area, if you want the site to span the whole browser window just remove this*/
+    max-width: 960px;            /*    This is where you set the width of you websites active area, if you want the site to span the whole browser window just remove this*/
 }
 
 
@@ -161,6 +161,7 @@ a:focus {
 }
 
 .nav-container {
+   background: #7073fe;
 }
 
 

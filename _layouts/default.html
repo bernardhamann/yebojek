@@ -5,10 +5,10 @@
    <meta charset="utf-8">
    <title>{{ site.name }} | {{ page.title }} </title>
    <meta name="description" content="{{ site.description }}">
-   <link href="/assets/yebojek/css/yebojek.css"rel="stylesheet"> <!-- Yebojek core CSS -->
-   <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">  <!-- Bootstrap core CSS -->
-   <link href="/assets/bootstrap/css/justified-nav.css" rel="stylesheet">  <!--Bootstrap justified-nav CSS -->
-   <link href="/assets/custom/css/myyebojek.css"rel="stylesheet"> <!-- Your Yebojek custom CSS -->
+   <script src="/assets/jquery/jquery.js" type="text/javascript"></script>
+   <link href="/assets/yebojek/css/yebojek.css"rel="stylesheet" type="text/css"/> <!-- Yebojek core CSS -->
+   <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>  <!-- Bootstrap core CSS -->
+   <link href="/assets/custom/myyebojek.css"rel="stylesheet" type="text/css"/> <!-- Your Yebojek custom CSS -->
    <!--[if lt IE 9]><script type="text/javascript" src="/assets/tagcanvas/excanvas.js"></script><![endif]-->
    <script src="/assets/tagcanvas/tagcanvas.js" type="text/javascript"></script>
 </head>
@@ -84,6 +84,7 @@
       </div> <!-- end of site-container -->
    </div> <!-- end of site-wrapper -->
 <!-- End Code -->      
-      {% include bits/addthis-sharelayers.html%}                     <!-- Select footer file here -->
+      <script src="/assets/bootstrap/js/bootstrap.js" type="text/javascript"></script>    <!-- This is the Bootstrap js file -->
+      {% include bits/addthis-sharelayers.html%}                     <!-- Add this Share box on the left of screen -->
 </body>
 </html>
