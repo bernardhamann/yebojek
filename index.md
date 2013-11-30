@@ -8,9 +8,6 @@ layout: default
 
 Copy the relevant parts of the yebojek stylesheet bootstrapped
 
-Nav must be responsive and handle level 2 items Fix the navigation bar, get example from bootstrap website or just use the yebojek standard one again
-
-
 ### Tagging 
 
 - Add a plugin that generates the tag pages 

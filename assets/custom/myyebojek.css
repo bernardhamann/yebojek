@@ -225,8 +225,7 @@ a:focus {
 }
 
 .extra-container {
-   background: url(../../yebojek/img/extra-2.png);
-   padding: 10px 30px 10px 30px;
+   background: url ("/assets/yebojek/img/extra-2.png");
 }
 
 /* ------------------------------------------------------------------------------- */
