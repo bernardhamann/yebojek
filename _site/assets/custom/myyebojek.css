@@ -130,6 +130,9 @@ a:focus {
 }
 
 .topbanner-container {
+   background: url("/assets/yebojek/img/header-2.png");
+
+
 }
 
 /* ------------------------------------------------------------------------------- */
@@ -162,7 +165,9 @@ a:focus {
 }
 
 .nav-container {
-   background: #7073fe;
+   background: grey;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 
 
