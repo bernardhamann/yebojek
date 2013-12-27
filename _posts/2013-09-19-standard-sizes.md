@@ -10,9 +10,6 @@ category: posts
 
 ## Section Top
 
-* * *
-
-## Section Nav
 
 * * *
 
@@ -25,11 +22,7 @@ Images should be 960 - 130 = 830px
 
 * * *
 
-## Section Extra
-
-* * *
-
-## Section Footer
+## Section Bottom 
 
 * * *
 
