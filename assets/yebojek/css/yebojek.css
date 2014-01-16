@@ -44,7 +44,7 @@ ul {                                 /* Unordered List styling*/
 	list-style:  square;
 }
 
-.nav-container ul {       /* Unordered List styling*/
+.header-bottom-container ul {       /* Unordered List styling for nav*/
 	margin-left: 0em;
 	list-style:  square;
 }
@@ -123,46 +123,46 @@ a:focus {
 
 /* ------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------- */
-                                  /* SECTION TOP */
+                                  /* SECTION HEADER */
 /* ------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------- */
 
-.section-top-wrapper {
+.section-header-wrapper {
 }
 
-.section-top-container {
+.section-header-container {
 }
 
 /* ------------------------------------------------------------------------------- */
-                                          /* Topbar */
+                                          /* header-top */
 /* ------------------------------------------------------------------------------- */
 
-.topbar-wrapper {
+.header-top-wrapper {
 }
 
-.topbar-container {
+.header-top-container {
 }
 
 /* ------------------------------------------------------------------------------- */
                                           /* Header*/
 /* ------------------------------------------------------------------------------- */
 
-.header-wrapper {
+.header-mid-wrapper {
 }
 
-.header-container {
+.header-mid-container {
    background: url("/assets/yebojek/img/header-2.png");
 }
 
 
 /* ------------------------------------------------------------------------------- */
-                                             /* Nav*/
+                                             /* header-bottom*/
 /* ------------------------------------------------------------------------------- */
 
-.nav-wrapper {
+.header-bottom-wrapper {
 }
 
-.nav-container {
+.header-bottom-container {
    background: grey;
    margin-left: 10px;
    margin-right: 10px;
@@ -229,47 +229,47 @@ a:focus {
 }
 
 /* ------------------------------------------------------------------------------- */
-                                       /* Extra */
+                                       /* Footer-top */
 /* ------------------------------------------------------------------------------- */
 
-.extra-wrapper {
+.footer-top-wrapper {
 }
 
-.extra-container {
+.footer-top-container {
    background: url ("/assets/yebojek/img/extra-2.png");
 }
 
 
 /* ------------------------------------------------------------------------------- */
-                                       /* Footer */
+                                       /* footer-bottom */
 /* ------------------------------------------------------------------------------- */
 
-.footer-wrapper {
+.footer-bottom-wrapper {
 }
 
-.footer-container {
+.footer-bottom-container {
    padding-bottom: 1px;     /*  This removes a funny line at the bottom of the site */
    padding-top: 10px;
    padding-bottom: 10px;
 }
 
-.footer-container p,
-.footer-container a,
-.footer-container a:hover{
+.footer-bottom-container p,
+.footer-bottom-container a,
+.footer-bottom-container a:hover{
    font-size: small;
    text-align: center;  
    line-height: 1.4em;
 }
 
-.footer-container p {
+.footer-bottom-container p {
    color: grey;   
 }
 
-.footer-container a {
+.footer-bottom-container a {
    text-decoration: underline;
    color: grey;
 }
-.footer-container a:hover {
+.footer-bottom-container a:hover {
    color: black;  
    background: white;
 }
